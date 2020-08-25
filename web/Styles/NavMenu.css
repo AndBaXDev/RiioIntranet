@@ -1,0 +1,10 @@
+.navbar-dark .navbar-nav .nav-link{
+    color:white !important;
+}
+
+@media screen and (max-width: 767px) {
+    picture img{
+        height: 100px !important;
+        width: 100px !important;
+    }
+}

@@ -1,0 +1,190 @@
+body{
+    margin: 0 !important;
+}
+
+.separator{
+    clear: both;
+}
+
+.div75Percent{
+    width: 75%;
+    float: left;
+}
+
+.div25Percent{
+    width: 25%;
+    float: left;
+}
+
+.invisible{
+    display: none;
+    visibility: hidden;
+}
+
+.subtitle{
+    color: #006998;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2% 0 2% 0;
+}
+
+.paragraph{
+    font-family: arial;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #444;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;   
+}
+
+.paragraphJustify{
+    font-family: arial;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #444;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.containerIn{
+    padding:2%;    
+}
+
+.containerMiddle1{
+    width: 48%;
+    float: left;
+    margin:2%;
+    text-align: center;
+}
+
+.containerMiddle2{
+    width: 48%;
+    float: left;    
+    text-align: center;
+}
+
+.containerImgLeft{
+    width: 30%;
+    float: left;
+    margin:2%;
+    text-align: center;
+}
+
+.containerService30Percent{
+    width: 30%;
+    float: left;
+    margin:2%;
+    text-align: center;
+}
+
+.containerService20Percent{
+    width: 20%;
+    float: left;
+    margin:2%;   
+    min-height: 300px;
+}
+
+.divDetallePrecio{
+    width: 70%;
+    float:left;    
+}
+
+.divPrecio{
+    width: 30%;
+    float:left;    
+}
+
+.divPrecioTotal{
+    float: left;
+    width: 20%;
+    background: cadetblue;
+    align-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 0 5px 0 5px;   
+    font-family: arial;
+    font-weight: 300;
+    font-style: normal;    
+}
+
+.divBtn{
+    float: left;
+    background: orange;
+    padding: 0 5px 0 5px;    
+    margin-left: 1%;
+    font-family: arial;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.containerHeight90Percent{
+    min-height: 250px;
+}
+
+.containerHeight10Percent{
+    height: 50px;
+}
+
+.container50Percent{
+    float: left;
+    width: 50%;
+}
+
+.expandHeaderContainer{
+    margin-top: 1%;
+    margin-bottom: 0px;
+    padding: 1%;
+    border-top-style: groove;
+    border-bottom-style: groove;
+    text-align: center;
+    color: white;
+    background: rgba(0,105,152,0.7) !important;
+}
+
+iframe { margin:0; padding:0; height:100%; }
+iframe { display:block; width:100%; border:none; }
+
+@media only screen and (max-width: 992px) {
+    .containerMiddle1{
+        width: 100%;
+        margin:0%;
+    }
+    
+    .containerImgLeft{
+        width: 90%;
+    }
+    
+    .containerService30Percent{
+        width: 90%;
+    }
+    
+    .containerService20Percent{
+        width: 90%;
+    }
+    
+    .containerMiddle2{
+        width: 100%;
+        margin:0%;
+    }
+}
+
+#header2 {
+  position: relative;
+  height: 200px;  
+  background: url("../Images/Home/ImgHome2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#header-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 0 1% 1%;
+}
